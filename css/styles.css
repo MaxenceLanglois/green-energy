@@ -1,0 +1,215 @@
+/* Colour codes 
+#007000 light green
+#002800 dark green
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: #f9f9f9;
+}
+
+nav {
+	background-color: #002800;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content:baseline;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1rem;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #007000;
+}
+
+header {
+    font-family: 'DM Serif Display', serif;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.masthead {
+	text-align: center;
+	
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+}
+
+.masthead h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.masthead p {
+	font-size: 1rem;
+}
+
+.container h1 p {
+    text-align: left;
+}
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 2rem;
+    margin-bottom: 100px;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.content div {
+	display: none;
+}
+
+.active {
+	background-color: #333;
+	color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+   padding: 1rem;
+}
+
+button {
+    background-color: #002800; 
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+
+  button:hover {
+    background-color: #007000; 
+  }
+ 
+
+img{
+    max-width: 100%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    float: left;
+    
+}
+
+
+footer {
+    background-color: #002800;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #007000;
+  }
+  
+  .fab {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 30rem) {
+
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+
+  }
+
+  nav ul {
+	list-style: none;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.masthead h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.masthead p {
+	font-size: 0.75rem;
+}
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 1rem;
+    margin-bottom: 70px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+   padding: 1rem;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0.5rem;
+	color: #fff;
+	text-decoration: none;
+    font-size: 0.75rem;
+}
+
+}
